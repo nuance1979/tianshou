@@ -139,6 +139,11 @@ Imitation
    :undoc-members:
    :show-inheritance:
 
+.. autoclass:: tianshou.policy.AIRLPolicy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Model-based
 -----------
 
