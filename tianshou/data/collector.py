@@ -276,7 +276,7 @@ class Collector(object):
         episode_start_indices = []
 
         while True:
-            assert len(self.data) == len(ready_env_ids)
+            assert len(self.data.obs) == len(ready_env_ids)
             # restore the state: if the last state is None, it won't store
             last_state = self.data.policy.pop("hidden_state", None)
 
